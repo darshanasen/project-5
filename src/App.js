@@ -1,26 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component, Fragment } from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <Fragment> 
+        <h1>REACT to this sick Project</h1>
+        <h2>
+          <span role="img" aria-label="alright alright alright">👌🏽</span>  wowowow what a sick app 
+          <span role="img" aria-label="alright alright alright">👌🏽</span>
+        </h2>
+        <p>My favourite emoji is the shipitparrot</p>
+      </Fragment>
+    );
+  }
 }
 
 export default App;
